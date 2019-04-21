@@ -34,7 +34,7 @@ public class UserContoller {
     //@ResponseBody
     public IMoocJSONResult getUserjson(){
         User u = new User();
-        u.setName("zhangsan1");
+        u.setName("zhangsan");
         u.setAge(19);
         u.setPassword("123456");
         u.setBirthday(new Date());
